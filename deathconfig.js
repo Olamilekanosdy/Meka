@@ -4,7 +4,7 @@ require('dotenv').config();
 /**
  * SESSION_ID:
  * - Required: This must match the session saved in MongoDB.
- * - Example: "mekaai_43cdf18f"
+ * - Example: ""
  *
  * MEKAMODE:
  * - Optional but helpful for logic separation.
@@ -21,7 +21,7 @@ require('dotenv').config();
  */
 
 module.exports = {
-  SESSION_ID: process.env.SESSION_ID || 'mekaai_43cdf18f',
+  SESSION_ID: process.env.SESSION_ID || '',
   OWNER_JID: process.env.OWNER_JID || '',
   MEKAMODE: process.env.MEKAMODE || 'meka',
   PORT: process.env.PORT || 3000,
