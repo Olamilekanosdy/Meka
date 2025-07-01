@@ -9,7 +9,7 @@ const {
   makeCacheableSignalKeyStore,
 } = require('@whiskeysockets/baileys');
 
-const { SESSION_ID, PORT, MEKAMODE } = require('./mekaconfig');
+const { SESSION_ID, PORT, MEKAMODE } = require('./deathconfig');
 const app = express();
 
 // === CONFIG ===
